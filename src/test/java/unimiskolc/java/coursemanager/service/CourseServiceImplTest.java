@@ -39,7 +39,7 @@ public class CourseServiceImplTest {
 
         Instructor instructor = new Instructor();
         instructor.setId(instructorId);
-        input.setInstructor(instructor); // csak ha már inicializáltad
+        input.setInstructor(instructor);
 
         Course saved = new Course();
         saved.setId(UUID.randomUUID());
