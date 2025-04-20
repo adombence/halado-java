@@ -11,5 +11,4 @@ public interface DepartmentService {
     void deleteDepartment(UUID id);
     List<Department> getAllDepartments();
     List<Department> findByBuilding(String building);
-    Department findById(UUID id);
 }

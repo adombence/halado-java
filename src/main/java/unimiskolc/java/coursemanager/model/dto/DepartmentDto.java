@@ -9,7 +9,7 @@ import java.util.UUID;
 @Data
 public class DepartmentDto {
 
-    @Schema(description = "Unique identifier of the department", example = "")
+    @Schema(description = "Unique identifier of the department")
     private UUID id;
 
     @NotBlank

@@ -10,14 +10,13 @@ import java.util.UUID;
 @Data
 public class CourseDto {
 
-    @Schema(description = "Unique identifier of the course", example = "")
     private UUID id;
 
     @NotBlank
     @Schema(description = "Title of the course", example = "Haladó Java")
     private String title;
 
-    @Schema(description = "Description of the course content", example = "")
+    @Schema(description = "Description of the course content")
     private String description;
 
     @NotNull
@@ -28,6 +27,5 @@ public class CourseDto {
     private boolean available;
 
     @NotNull
-    @Schema(description = "ID of the instructor assigned to the course", example = "")
     private UUID instructorId;
 }

@@ -1,7 +1,6 @@
 package unimiskolc.java.coursemanager.service;
 
 import unimiskolc.java.coursemanager.model.entity.Course;
-import unimiskolc.java.coursemanager.model.entity.Student;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,17 +1,10 @@
 package unimiskolc.java.coursemanager.controller;
 
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import unimiskolc.java.coursemanager.model.dto.StudentDto;
-import unimiskolc.java.coursemanager.model.entity.Student;
 import unimiskolc.java.coursemanager.model.mapper.StudentMapper;
-import unimiskolc.java.coursemanager.persist.StudentRepository;
 import unimiskolc.java.coursemanager.service.StudentServiceImpl;
 
 import java.util.List;

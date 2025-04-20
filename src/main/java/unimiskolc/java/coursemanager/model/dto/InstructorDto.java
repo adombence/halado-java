@@ -11,7 +11,6 @@ import java.util.UUID;
 @Data
 public class InstructorDto {
 
-    @Schema(description = "Unique identifier of the instructor", example = "")
     private UUID id;
 
     @NotBlank
@@ -35,6 +34,5 @@ public class InstructorDto {
     private boolean fullTime;
 
     @NotNull
-    @Schema(description = "ID of the department the instructor belongs to", example = "")
     private UUID departmentId;
 }

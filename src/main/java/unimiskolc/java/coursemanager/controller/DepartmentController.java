@@ -4,7 +4,6 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import unimiskolc.java.coursemanager.model.dto.DepartmentDto;
-import unimiskolc.java.coursemanager.model.entity.Department;
 import unimiskolc.java.coursemanager.model.mapper.DepartmentMapper;
 import unimiskolc.java.coursemanager.service.DepartmentService;
 

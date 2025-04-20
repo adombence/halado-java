@@ -7,7 +7,6 @@ import org.mockito.MockitoAnnotations;
 
 import unimiskolc.java.coursemanager.model.entity.Department;
 import unimiskolc.java.coursemanager.persist.DepartmentRepository;
-import unimiskolc.java.coursemanager.persist.InstructorRepository;
 
 import java.util.Optional;
 import java.util.UUID;

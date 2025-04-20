@@ -16,12 +16,6 @@ public class DepartmentServiceImpl implements DepartmentService {
     private final DepartmentRepository departmentRepository;
 
     @Override
-    public Department findById(UUID id) {
-        return departmentRepository.findById(id)
-                .orElseThrow(() -> new DepartmentNotFoundException("Department not found: " + id));
-    }
-
-    @Override
     public Department createDepartment(Department department) {
         return departmentRepository.save(department);
     }
